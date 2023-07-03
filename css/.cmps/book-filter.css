@@ -1,0 +1,21 @@
+.book-filter input {
+    font-size: 1.3rem;
+    height: 1.7em;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.book-filter {
+    display: flex;
+    justify-content: center;
+    background-color: #20B2AA;
+    padding: 10px;
+    border-radius: 13px;
+    width: auto;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.book-filter label {
+   margin: 10px; 
+}

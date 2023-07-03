@@ -1,0 +1,47 @@
+.book-app {
+    min-height: 90vh;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.book-list ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    list-style-type: none;
+    padding: 10px;
+}
+.book-list ul li {
+    display: grid;
+    background-color: lightseagreen;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 8px 7px 8px -3px rgb(0 0 0 / 60%);
+    transform: scale(1);
+    transition: transform 0.3s;
+    margin: 8px;
+}
+
+.book-list ul li:hover{
+    transform: scale(1.07);
+}
+
+.book-list ul a {
+    text-decoration: none;
+}
+.actions {
+    justify-self: end;
+}
+
+.book-preview img {
+    width: 120px;
+}
+.book-preview h2 {
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.book-preview p {
+    color: rgb(54, 51, 51);
+}

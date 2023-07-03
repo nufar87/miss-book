@@ -1,0 +1,26 @@
+/* about page */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.about-page img {
+    max-height: 80%;
+    display: inline;
+}
+.about-page button {
+    width: 100px;
+   margin: auto;
+
+}
+.about-page .about-us {
+    display: inline;
+    text-align: left;
+}
+.about-page .about-us p, .about-page .about-us h1 {
+    margin: 20px 50px;
+    text-align: left;
+}

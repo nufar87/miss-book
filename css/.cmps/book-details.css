@@ -1,0 +1,157 @@
+
+/* // #book-details #*/ 
+.book-details button {
+    text-align: left;
+}
+
+.book-details p {
+    margin: 5px;
+}
+
+/* color */
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.sale {
+    background-color: aquamarine;
+    margin: 0 auto;
+    height: 50px;
+    width: 300px;
+}
+
+.sale p {
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.description-without-check {
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 100;
+}
+
+p.page-amount {
+    font-family: cursive;
+    font-size: em;
+}
+
+.maxPrice-filter-input{
+    margin-inline-start: 18px;
+}
+
+.book-filter label {
+    display: block;
+    margin-block-end: 10px;
+}
+.user-msg {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+
+    width: 290px;
+    background-color: rgb(208, 206, 139);
+    padding: 10px;
+    border-radius: 5px;
+}
+.success {
+    background-color: rgb(88, 130, 88);
+}
+.fail {
+    background-color: rgb(187, 104, 104);
+}
+
+.book-details {
+    background-color: rgb(104, 143, 154);
+    padding: 10px;
+    margin-block-end: 10px;
+    gap: 10%;
+    width: 95%;
+}
+.book-details button{
+    justify-self: end;
+}
+.book-details img{
+    width: 100%;
+    justify-self: center;
+    place-items: center;
+    transition: rotate 1s;
+    margin-block-end: 20px;
+}
+
+.book-details img:hover{
+    rotate: -10deg;
+}
+.book-edit {
+    background-color: rgb(106, 126, 132);
+    padding: 10px;
+}
+
+.img-container{
+    flex-basis: 30%;
+    max-width: 250px;
+}
+
+.book-info{
+    font-size: 2rem;
+    margin: 0 2px;
+    flex-basis: 60%;
+}
+
+.book-info > *{
+    margin-top: 1rem;
+}
+.book-info .book-title{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.book-info h4 {
+    font-size: 1.3rem;
+}
+.book-info .book-subtitle{
+    border-bottom: 1px solid darkseagreen;
+}
+
+.book-info button {
+    max-width: 250px;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+/* unique list */
+.unique-list{
+    text-transform: uppercase;
+    color: lightgreen;
+}
+.icons{
+    width: 18px !important
+}
+
+/* long text */
+.long-text-link{
+    color: pink;
+}
+.long-text-link:hover{
+    text-decoration: underline;
+}
+
+/* reviews */
+.img-container .user-img{
+    border-radius: 50%;
+}
+.review-info .writer-name{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.review-info .read-at{
+    color: pink
+}
+
+/* books-nav */
+.books-nav {
+    display: flex;
+    justify-content: space-between;
+   }

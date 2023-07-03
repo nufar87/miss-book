@@ -1,0 +1,14 @@
+/* home-page */
+
+.home-page {
+    height: 90vh;
+    padding-block-start: 20px;
+    background-image: url("../../img/home.jpg");
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.home-page img {
+    height: 85vh;
+    margin: auto;
+}

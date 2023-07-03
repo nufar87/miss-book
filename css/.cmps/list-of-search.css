@@ -1,0 +1,9 @@
+.list-of-search {
+    text-align: left;
+    height: 20px;
+}
+
+.list-of-search button {
+    display: inline;
+    border-radius: 50%;
+}
