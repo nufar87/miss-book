@@ -12,3 +12,6 @@
 - Search
 - Books CRUD
 - Using local storage
+
+<p><a href="https://nufar87.github.io/miss-book/#/" target="blank">Link to Miss Book</a>
+</p>
